@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+  
+</head>
+<body>
   <h1>Calculate your age on a different planet</h1>
   <title>Galactic Calculator</title>
   <form>
-    <input type="text" name="age" placeholder="enter age">
-    <!-- <label for="age">Enter Age here</label> -->
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="nameInput" placeholder="Enter name">
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="ageInput" placeholder="Enter age">
     <div id="radioDiv">
       <h2>Select a planet to see how old you are there compared to Earth</h2>
       <input type="radio" name="planet" value="Earth">
@@ -22,7 +27,5 @@
     <button class="btn btn-primary" type="submit">Submit</button>
   </form>
   <p>Results</p>
-</head>
-<body>
 </body>
 </html>
