@@ -17,4 +17,8 @@ export default class Person {
     this.ageOnMars = (this.ageOnEarth/1.88).toFixed(2);
     return this.ageOnMars;
   }
+
+  jupiterAge(){
+    
+  }
 }
