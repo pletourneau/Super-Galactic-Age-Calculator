@@ -4,32 +4,51 @@
   
 </head>
 <body>
-  
-  <h1>Calculate your age on a different planet</h1>
-  <h2>Enter name, age, and select a planet to see the results</h2>
-  <title>Galactic Calculator</title>
-  <form id="form1">
-    <label for="name"></label>
-    <input type="text" name="name" id="nameInput" placeholder="Enter name">
-    <label for="age"></label>
-    <input type="number" name="age" id="ageInput" placeholder="Enter age">
-    <div id="radioDiv">
-      <h2>Select a planet to see how old you are there compared to Earth</h2>
-      <input type="radio" name="planet" value="Earth">
-      <label for="planet">Earth</label>
-      <input type="radio" name="planet" value="Mercury">
-      <label for="planet">Mercury</label>
-      <input type="radio" name="planet" value="Venus">
-      <label for="planet">Venus</label>
-      <input type="radio" name="planet" value="Mars">
-      <label for="planet">Mars</label>
-      <input type="radio" name="planet" value="Jupiter">
-      <label for="planet">Jupiter</label>
-    </div>
-    <button class="btn btn-primary" type="submit">Submit</button>
-  </form>
-  <p id="p1"></p>
-
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Calculate your age on a different planet</h1>
+        <h2>Enter name, age, and select a planet to see the results</h2>
+        <title>Galactic Calculator</title>
+        <form id="form1">
+          <label for="name"></label>
+          <input type="text" name="name" id="nameInput" placeholder="Enter name">
+          <label for="age"></label>
+          <input type="number" name="age" id="ageInput" placeholder="Enter age">
+          <div id="radioDiv">
+            <h2>Select a planet to see how old you are there compared to Earth</h2>
+            <input type="radio" name="planet" value="Earth">
+            <label for="planet">Earth</label>
+            <input type="radio" name="planet" value="Mercury">
+            <label for="planet">Mercury</label>
+            <input type="radio" name="planet" value="Venus">
+            <label for="planet">Venus</label>
+            <input type="radio" name="planet" value="Mars">
+            <label for="planet">Mars</label>
+            <input type="radio" name="planet" value="Jupiter">
+            <label for="planet">Jupiter</label>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <p id="p1"></p>
+      </div>
+      <div class="col">
+        <h1>See the galactic difference between two ages</h1>
+        <h2>Enter current age and a past or future age</h2>
+        <title>Galactic Calculator, part deux</title>
+        <form id="form2">
+          <label for="name"></label>
+          <input type="text" name="name" id="nameInput" placeholder="Enter name">
+          <label for="currentAge"></label>
+          <input type="number" name="currentAge" id="currentAgeInput2" placeholder="Enter current age">
+          <label for="futureOrPastAge"></label>
+          <input type="number" name="futureOrPastAge" id="otherAgeInput2" placeholder="Enter another age to see the galactic difference">
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <p id="p2"></p>  
+      </div>  
+    </div>  
+  </div>
 
 </body>
 </html>

@@ -28,12 +28,23 @@ function handleGalacticForm(event) {
     galAge = age;
   }
   document.getElementById("form1").reset();
-  document.getElementById("p1").innerText = "You are " + galAge + " years old on the planet of " + planetChecked;
-  
-
-
+  document.getElementById("p1").innerText = name + ", you are " + galAge + " years old on the planet of " + planetChecked;
 }
+
+function diffYears(event) {
+  event.preventDefault();
+  const newPerson = new Person(name, curAge);
+  const name = document.getElementById("nameInput2").value;
+  const curAge = document.getElementById("currentAgeInput2").value;
+  const othAge = document.getElementById("otherAgeInput2").value;
+  
+  document.getElementById("form2").reset();
+  document.getElementById("p2").innerText = newPerson.diff(othAge);
+
+}  
 
 window.addEventListener("load", function() {
   document.getElementById("form1").addEventListener("submit", handleGalacticForm);
+  document.getElementById("form2").addEventListener("submit", diffYears);
+
 });
