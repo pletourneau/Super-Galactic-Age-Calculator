@@ -27,6 +27,8 @@ export default class Person {
     let diff = years - this.ageOnEarth;
     if (diff > 0) {
       return diff.toFixed(2) + " Earth years until you are " + years + " on Earth, " + (diff/.24).toFixed(2) + " Mercury years until you are " + years + " on Earth, " + (diff/.62).toFixed(2) + " Venus years until you are " + years + " on Earth, " + (diff/1.88).toFixed(2) + " Mars years until you are " + years + " on Earth, and " + (diff/11.86).toFixed(2) + " Jupiter years until you are " + years + " on Earth";
+    } else if (diff < 0) {
+      return Math.abs(diff).toFixed(2) + " Earth years since you were " + years + " on Earth, " + (Math.abs(diff)/.24).toFixed(2) + " Mercury years since you were " + years + " on Earth, " + (Math.abs(diff)/.62).toFixed(2) + " Venus years since you were " + years + " on Earth, " + (Math.abs(diff)/1.88).toFixed(2) + " Mars years since you were " + years + " on Earth, " + (Math.abs(diff)/11.86).toFixed(2) + " Jupiter years since you were " + years + " on Earth";
     }
   }
   

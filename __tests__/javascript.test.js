@@ -31,9 +31,6 @@ test('it should return the number of years until the Character class instance pi
   expect(picardPerson.diff(89)).toEqual("6.00 Earth years until you are 89 on Earth, 25.00 Mercury years until you are 89 on Earth, 9.68 Venus years until you are 89 on Earth, 3.19 Mars years until you are 89 on Earth, and 0.51 Jupiter years until you are 89 on Earth");
 });
 
-test('if difference between ages is negative, nothing should return', () => {
-  expect(picardPerson.diff(74)).toEqual();
-});
 
 test('it should return the number of years since the Character class instance picardPerson was the inputted number on each planet, where the inputted number is lower than his age', () => {
   expect(picardPerson.diff(74)).toEqual("9.00 Earth years since you were 74 on Earth, 37.50 Mercury years since you were 74 on Earth, 14.52 Venus years since you were 74 on Earth, 4.79 Mars years since you were 74 on Earth, and 0.76 Jupiter years since you were 74 on Earth");
