@@ -15,7 +15,9 @@ test('it should return the ageOnMercury of the Character class instance paulsPer
   expect(picardPerson.mercuryAge()).toEqual("345.83");
 });
 
-
+test('it should return the ageOnVenus of the Character class instance paulsPerson and picardPerson', () => {
+  expect(picardPerson.venusAge()).toEqual("133.87");
+});
 
 
 });
