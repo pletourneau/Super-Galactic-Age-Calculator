@@ -33,18 +33,17 @@ function handleGalacticForm(event) {
 
 function diffYears(event) {
   event.preventDefault();
-  const newPerson = new Person(name, curAge);
   const name = document.getElementById("nameInput2").value;
   const curAge = document.getElementById("currentAgeInput2").value;
   const othAge = document.getElementById("otherAgeInput2").value;
+  const newPerson2 = new Person(name, curAge);
   
   document.getElementById("form2").reset();
-  document.getElementById("p2").innerText = newPerson.diff(othAge);
+  document.getElementById("p2").innerText = newPerson2.diff(othAge);
 
 }  
 
 window.addEventListener("load", function() {
   document.getElementById("form1").addEventListener("submit", handleGalacticForm);
   document.getElementById("form2").addEventListener("submit", diffYears);
-
 });
