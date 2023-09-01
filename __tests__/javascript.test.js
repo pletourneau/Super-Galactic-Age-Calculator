@@ -9,7 +9,7 @@ beforeEach(() => {
   picardPerson = new Person("Captain Jean-Luc Picard", 83);
 });
 
-test('it should return the properties of the Character class instance paulsPerson and picardPerson', () => {
+test('it should return the ageOnEarth and name properties of the Character class instance paulsPerson and picardPerson', () => {
   expect(paulsPerson).toEqual({name: "Paul", ageOnEarth: 41});
   expect(picardPerson).toEqual({name: "Captain Jean-Luc Picard", ageOnEarth: 83});
 });
