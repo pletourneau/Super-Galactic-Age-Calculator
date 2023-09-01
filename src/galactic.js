@@ -30,7 +30,7 @@ export default class Person {
     } else if (diff < 0) {
         return Math.abs(diff).toFixed(2) + " Earth years since you were " + years + " on Earth, " + (Math.abs(diff)/.24).toFixed(2) + " Mercury years since you were " + years + " on Earth, " + (Math.abs(diff)/.62).toFixed(2) + " Venus years since you were " + years + " on Earth, " + (Math.abs(diff)/1.88).toFixed(2) + " Mars years since you were " + years + " on Earth, and " + (Math.abs(diff)/11.86).toFixed(2) + " Jupiter years since you were " + years + " on Earth";
     } else {
-        return "Captain, you entered the same stardate";
+        
     }
   }
 }
