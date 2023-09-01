@@ -8,5 +8,8 @@ export default class Person {
     return this.ageOnMercury;
   }
  
-
+  venusAge(){
+    this.ageOnVenus = (this.ageOnEarth/.62).toFixed(2);
+    return this.ageOnVenus;
+  }
 }
