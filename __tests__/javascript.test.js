@@ -35,5 +35,11 @@ test('if difference between ages is negative, nothing should return', () => {
   expect(picardPerson.diff(74)).toEqual();
 });
 
+test('it should return the number of years since the Character class instance picardPerson was the inputted number on each planet, where the inputted number is lower than his age', () => {
+  expect(picardPerson.diff(74)).toEqual("9.00 Earth years since you were 74 on Earth, 37.50 Mercury years since you were 74 on Earth, 14.52 Venus years since you were 74 on Earth, 4.79 Mars years since you were 74 on Earth, and 0.76 Jupiter years since you were 74 on Earth");
+});
+
+
+
 });
   
