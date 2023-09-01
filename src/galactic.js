@@ -22,4 +22,10 @@ export default class Person {
     this.ageOnJupiter = (this.ageOnEarth/11.86).toFixed(2);
     return this.ageOnJupiter;
   }
+
+  diff(years) {
+    let diff = years - ageOnEarth;
+      return diff
+    } 
+  
 }
