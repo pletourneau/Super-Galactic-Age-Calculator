@@ -9,8 +9,26 @@ function handleGalacticForm(event) {
   const name = document.getElementById("nameInput").value;
   const age = document.getElementById("ageInput").value;
   const newPerson = new Person(name, age);
-  let planet = document.querySelector("input[name='planet']:checked").value;
-  document.querySelector("p").innerText = planet;
+  let planetChecked = document.querySelector('input[name="planet"]:checked').value;
+  let galAge = "";
+  switch (planetChecked) {
+  case "Mercury":
+    galAge = newPerson.mercuryAge();
+    break;
+  case "Venus":
+    galAge = newPerson.venusAge();
+    break;
+  case "Mars":
+    galAge = newPerson.marsAge();
+    break;
+  case "Jupiter":
+    galAge = newPerson.jupiterAge();
+    break; 
+  default:
+    galAge = age;
+  }    
+  document.querySelector("p").innerText = "You are " + galAge + " years old on the planet of " + planetChecked;
+  
 }
 
 window.addEventListener("load", function() {
