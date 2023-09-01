@@ -3,4 +3,8 @@ export default class Person {
     this.name = name;
     this.ageInYears = ageInYears;
   }
+  
+  galacticAge(planet){
+    
+  }
 }
