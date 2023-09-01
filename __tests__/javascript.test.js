@@ -10,8 +10,8 @@ beforeEach(() => {
 });
 
 test('it should return the properties of the Character class instance paulsPerson and picardPerson', () => {
-  expect(paulsPerson).toEqual({name: "Paul", age: 41});
-  expect(picardPerson).toEqual({name: "Captain Jean-Luc Picard", age: 83});
+  expect(paulsPerson).toEqual({name: "Paul", ageInYears: 41});
+  expect(picardPerson).toEqual({name: "Captain Jean-Luc Picard", ageInYears: 83});
 });
 
 });
