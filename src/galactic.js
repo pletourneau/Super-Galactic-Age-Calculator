@@ -4,7 +4,8 @@ export default class Person {
     this.ageOnEarth = ageInYears;
   }
   mercuryAge(){
-    this.ageOnMercury = (ageInYears/.24).toFixed(2);
+    this.ageOnMercury = (this.ageOnEarth/.24).toFixed(2);
+    return this.ageOnMercury;
   }
  
 

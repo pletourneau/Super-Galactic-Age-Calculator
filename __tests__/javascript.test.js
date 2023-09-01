@@ -15,8 +15,8 @@ test('it should return the ageOnEarth and name properties of the Character class
 });
 
 test('it should return the ageOnMercury of the Character class instance paulsPerson and picardPerson', () => {
-  expect(paulsPerson.mercuryAge()).toEqual({ageOnMercury: "170.83"});
-  expect(picardPerson.mercuryAge()).toEqual({ageOnMercury: "345.83"});
+  expect(paulsPerson.mercuryAge()).toEqual("170.83");
+  expect(picardPerson.mercuryAge()).toEqual("345.83");
 });
 
 
