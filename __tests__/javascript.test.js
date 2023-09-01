@@ -36,7 +36,9 @@ test('it should return the number of years since the Character class instance pi
   expect(picardPerson.diff(74)).toEqual("9.00 Earth years since you were 74 on Earth, 37.50 Mercury years since you were 74 on Earth, 14.52 Venus years since you were 74 on Earth, 4.79 Mars years since you were 74 on Earth, and 0.76 Jupiter years since you were 74 on Earth");
 });
 
-
+test('if the user enters the same age as the current age, it should return a funny string', () => {
+  expect(picardPerson.diff(83)).toEqual("Captain, you entered the same stardate");
+});
 
 });
   
