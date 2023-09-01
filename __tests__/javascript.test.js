@@ -28,7 +28,7 @@ test('it should return the ageOnJupiter of the Character class instance picardPe
 });
 
 test('it should return the number of years until the Character class instance picardPerson turns the inputted number on each planet, where the inputted number is higher than his age', () => {
-  expect(picardPerson.diff(89)).toEqual("6.00 Earth years until you are 89 on Earth 25.00 Mercury years until you are 89 on Earth 9.68 Venus years until you are 89 on Earth 3.19 Mars years until you are 89 on Earth 0.51 Jupiter years until you are 89 on Earth");
+  expect(picardPerson.diff(89)).toEqual("6.00 Earth years until you are 89 on Earth, 25.00 Mercury years until you are 89 on Earth, 9.68 Venus years until you are 89 on Earth, 3.19 Mars years until you are 89 on Earth, and 0.51 Jupiter years until you are 89 on Earth");
 });
 
 });
