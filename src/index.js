@@ -26,11 +26,14 @@ function handleGalacticForm(event) {
     break; 
   default:
     galAge = age;
-  }    
-  document.querySelector("p").innerText = "You are " + galAge + " years old on the planet of " + planetChecked;
+  }
+  document.getElementById("form1").reset();
+  document.getElementById("p1").innerText = "You are " + galAge + " years old on the planet of " + planetChecked;
   
+
+
 }
 
 window.addEventListener("load", function() {
-  document.querySelector("form").addEventListener("submit", handleGalacticForm);
+  document.getElementById("form1").addEventListener("submit", handleGalacticForm);
 });

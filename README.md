@@ -1,8 +1,8 @@
-# _{Application Name}_
+# _{Galactic Age Calculator}_
 
-#### By _**{List of contributors}**_
+#### By _**{Paul LeTourneau}**_
 
-#### _{Brief description of application}_
+#### _{Will calculate your age on different planets}_
 
 ## Technologies Used
 
@@ -15,27 +15,33 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_{With the input of your age, this app will calculate your age on 5 different planets, based on the length of that planet's year}_
 
 ## Setup/Installation Requirements
 
-* _$ git clone (link)_
-* _$ cd FileName_
+* _$ git clone https://github.com/pletourneau/Super-Galactic-Age-Calculator.git_
+* _Change the directory to the root directory wherever you have saved it_
 * _$ npm install_
 * _$ npm run build_
 * _$ npm run test_
 * _$ npm run lint_
-* _$ npm run start (see note)_
+* _$ npm run start_
 
-_{If you would like to start a server when UI is added, $ npm run start, will open a server in your browser.}_
+
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
+
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+```
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Copyright (c) _date_ _author name(s)_
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
+```
+
+Copyright (c) _2023_ _Paul LeTourneau_
